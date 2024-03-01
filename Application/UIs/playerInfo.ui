@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>661</width>
+    <height>592</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>PlayersStatistics</string>
+  </property>
+  <widget class="QSplitter" name="splitter">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>641</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <widget class="QLabel" name="label_6">
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Player Name:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="playerName"/>
+   <widget class="QPushButton" name="searchButton">
+    <property name="text">
+     <string>Search</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QSplitter" name="splitter_7">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>641</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <widget class="QSplitter" name="splitter_6">
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+    <widget class="QTableWidget" name="playerStats">
+     <row>
+      <property name="text">
+       <string>1</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>2</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>3</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>4</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>5</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>6</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>7</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>8</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>9</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>10</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>PlayerName</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>TeamName</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>MINUTES</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>PTS</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>REB</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>AST</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>FGM</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>FGA</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>FG_PCT</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>FG3M</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>FG3A</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>FG3_PCT</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>FTM</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>FTA</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>FT_PCT</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>OREB</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>DREB</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>STL</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>BLK</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>TurnOver</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>PersonalFouls</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QPushButton" name="backToMainMenu">
+     <property name="text">
+      <string>Back to Main Menu</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
